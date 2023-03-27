@@ -1,6 +1,6 @@
 # Quad-GAN
 
-###An implementation of Generative Adversarial Networks for Joint Distribution Matching. Built on top of Triangle GAN (https://arxiv.org/abs/1709.06548).
+### An implementation of Generative Adversarial Networks for Joint Distribution Matching. Built on top of Triangle GAN (https://arxiv.org/abs/1709.06548).
 
 The essence of a \(\Delta\) GAN is that it is able to do a bi-directional mapping between two random variables \((x, y)\) from two domains by matching the three joint distributions of  $p(x,y), p_x(\Tilde{x},y), p_y(x,\Tilde{y})$ where $p(\Tilde{x}|y)$ and $p(\Tilde{y}|x))$ represent the generated conditional distributions.
 \newline
